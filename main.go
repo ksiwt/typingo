@@ -68,7 +68,7 @@ func main() {
 			}
 
 		case <-ctx.Done():
-			fmt.Println("End of typing game")
+			fmt.Println("Time up!")
 			fmt.Printf("Your score is %d.", score)
 			return
 		}
