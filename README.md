@@ -1,2 +1,2 @@
 # Typingo
-Typing Game in Go.
+Typing Game written in Go.
