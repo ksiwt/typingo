@@ -34,11 +34,7 @@ func generateRandomWord() string {
 }
 
 func isCorrect(answer, question string) bool {
-	if answer == question {
-		return true
-	} else {
-		return false
-	}
+	return answer == question
 }
 
 func main() {
